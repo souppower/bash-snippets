@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -r -p "URL: " url
-if [[ $url == "" ]]; then
+if [[ "$url" == "" ]]; then
     echo "No URL was given." >&2
     exit 1
 fi
