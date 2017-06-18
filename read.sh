@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -Ceu
 
 echo -n "Enter Your Name: "
 read name

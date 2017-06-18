@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -Ceu
 
 read -r -p "URL: " url
 if [[ "$url" == "" ]]; then
